@@ -1,0 +1,40 @@
+.item-todo {
+    padding: 14px;
+    width: 250px;
+    margin-top: 15px;
+    background: lightgreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 14px 32px 14px 16px;
+    border-radius: 4px 0 0 4px;
+    border: 2px solid lightgreen;
+    outline: none;
+}
+
+button {
+    width: 62px;
+    padding: 16px 7px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    background: lightgreen;
+    color: white;
+}
+
+.date-block{
+    width: 90px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 17px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
